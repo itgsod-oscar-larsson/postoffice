@@ -12,7 +12,7 @@
     # line 3
 """
 
-def dubbeltupp(number):
+def is_evelop(number):
     """
     dubbeltupp calculates the number and double it
 

@@ -9,5 +9,9 @@ def is_envelop(width,length,thickness):
     """
 
     #code ....
+    print "ar detta ett brev"
+    summa = width+length+thickness
+    if summa <= 90 and width >= 9 and 60 >= length >= 14:
+        return True
 
-    return True
+    return False
